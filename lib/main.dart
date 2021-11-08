@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: const Text('Hot reload works')),
+        appBar: AppBar(
+          title: const Text('Ketan Shukla App!'),
+        ),
       ),
     );
   }
